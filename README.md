@@ -22,3 +22,19 @@ PhonePe, Paytm, Google Pay and other UPI apps.
 Install dependencies:
 ```bash
 pip install qrcode[pil]
+
+## 🧑‍💻 Usage
+
+import qrcode
+
+upi_id = "yourupi@bank"
+name = "Your Name"
+amount = "100"
+
+upi_link = f"upi://pay?pa={upi_id}&pn={name}&am={amount}&cu=INR"
+
+qr = qrcode.make(upi_link)
+qr.save("upi_qr.png")
+
+print("UPI QR Code Generated Successfully")
+
