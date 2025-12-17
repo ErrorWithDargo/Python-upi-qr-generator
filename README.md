@@ -19,28 +19,13 @@ PhonePe, Paytm, Google Pay and other UPI apps.
 - qrcode library
 - pillow library
 
-Install dependencies:
-```bash
-pip install qrcode[pil]
-
-
-
 ## Usage 
 
 import qrcode
-
 upi_id = "yourupi@bank"
 name = "Your Name"
+## 👨‍💻 Author
 
-
-## 🟢 STEP 4: Simple Explanation
-
-Code ke niche ye lines add karo 👇
-
-```md
-### 🔹 Steps:
-1. `upi_id` me apna UPI ID dalo
-2. `name` me apna naam dalo
-3. `amount` me payment amount set karo
-4. Script run karo
-5. `upi_qr.png` generate ho jayega
+**Error With Dargo**  
+📺 YouTube: [Subscribe Now](https://www.youtube.com/@ErrorWithDargo)  
+🔥 Python | Automation | Tech
