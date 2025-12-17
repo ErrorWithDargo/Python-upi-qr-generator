@@ -22,6 +22,7 @@ PhonePe, Paytm, Google Pay and other UPI apps.
 ## Usage 
 
 import qrcode
+
 upi_id = "yourupi@bank"
 name = "Your Name"
 ## 👨‍💻 Author
