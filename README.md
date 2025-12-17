@@ -23,7 +23,7 @@ Install dependencies:
 ```bash
 pip install qrcode[pil]
 
-## 🧑‍💻 Usage
+# Usage
 
 import qrcode
 
